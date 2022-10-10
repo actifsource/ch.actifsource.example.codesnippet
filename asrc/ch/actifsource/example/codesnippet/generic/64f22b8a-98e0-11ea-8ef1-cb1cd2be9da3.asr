@@ -142,6 +142,9 @@
       </owns>
     </resource>
   </owns>
+  <owns predicate="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+    <resource statement-guid="7aafc955-488e-11ed-a2ed-3b1df8d23de0" type="resource" guid="7aaf5421-488e-11ed-a2ed-3b1df8d23de0" />
+  </owns>
   <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="64f22ba1-98e0-11ea-8ef1-cb1cd2be9da3" type="resource" guid="2576b879-f91f-11d9-bb45-5fabdff7c7da" />
   </predicate>
@@ -619,6 +622,21 @@
   </predicate>
   <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="64f22be2-98e0-11ea-8ef1-cb1cd2be9da3" type="literal">System</object>
+  </predicate>
+  <predicate guid="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="7aafc955-488e-11ed-a2ed-3b1df8d23de0">
+      <resource guid="7aaf5421-488e-11ed-a2ed-3b1df8d23de0">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="7aaf7b33-488e-11ed-a2ed-3b1df8d23de0" type="resource" guid="360ec494-f91f-11d9-bb45-5fabdff7c7da" />
+        </predicate>
+        <predicate guid="3c0568eb-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="a8f5a522-488e-11ed-a2ed-3b1df8d23de0" type="literal">ch.actifsource.example.codesnippet.aspects.TestCodeSnippetValidationAspect</object>
+        </predicate>
+        <predicate guid="3c91f17c-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="7aafa244-488e-11ed-a2ed-3b1df8d23de0" type="resource" guid="96b3624d-22f2-11db-b87d-39b85b0bccf3" />
+        </predicate>
+      </resource>
+    </object>
   </predicate>
   <predicate guid="80ff75d8-e648-11da-90a0-f358fdc0051b">
     <object statement-guid="64f22be3-98e0-11ea-8ef1-cb1cd2be9da3" type="literal"></object>
