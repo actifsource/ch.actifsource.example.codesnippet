@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="c3757deb-888c-11ee-8ced-2d7833d4fb90">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="c3757ded-888c-11ee-8ced-2d7833d4fb90" type="resource" guid="b73707b3-888c-11ee-8ced-2d7833d4fb90" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="c375cc0e-888c-11ee-8ced-2d7833d4fb90" type="literal">if</object>
+  </predicate>
+</resource>
+

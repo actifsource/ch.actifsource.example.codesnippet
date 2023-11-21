@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="b73707b3-888c-11ee-8ced-2d7833d4fb90">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="b73707b5-888c-11ee-8ced-2d7833d4fb90" type="resource" guid="2576b879-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="32d2854d-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="b737f217-888c-11ee-8ced-2d7833d4fb90" type="resource" guid="270595db-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="b737a3f6-888c-11ee-8ced-2d7833d4fb90" type="literal">CodeStatement </object>
+  </predicate>
+</resource>
+
