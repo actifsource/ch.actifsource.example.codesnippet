@@ -17,6 +17,7 @@ public class GenericPackage {
   public static final Resource Variable_type = new Resource("ce586956-98e3-11ea-8ef1-cb1cd2be9da3");
   public static final Resource CodesnippetFunctions_Function = new Resource("f96fc09b-98e3-11ea-8ef1-cb1cd2be9da3");
   public static final Resource CodesnippetFunctions_Variable = new Resource("460ffe7d-98e4-11ea-8ef1-cb1cd2be9da3");
+  public static final Resource CodeStatement__F_ = new Resource("b73707b3-888c-11ee-8ced-2d7833d4fb90");
   
   /* Begin Protected Region [[user]] */
   
@@ -37,4 +38,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,DCQcLSzdSHUkkIukSiqgudVfLIs=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,DFP/xF0ZqB46mwxnJ4MQI6ZLBb4=] */
