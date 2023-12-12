@@ -11,8 +11,8 @@ public interface IVariable extends ch.actifsource.core.javamodel.ICommentable, c
   
   // relations
   
-  public ch.actifsource.example.codesnippet.generic.javamodel.IType selectType();
+  public ch.actifsource.example.codesnippet.generic.type.javamodel.IType selectType();
   
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,7da5691e-98e0-11ea-8ef1-cb1cd2be9da3,qVNC62ZD6m1t2ZOGFOOeTSqfz6U=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,7da5691e-98e0-11ea-8ef1-cb1cd2be9da3,usuqPWxkz+cD5zMi4nJ/v8bomnA=] */

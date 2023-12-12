@@ -1,4 +1,4 @@
-package ch.actifsource.example.codesnippet.generic.javamodel;
+package ch.actifsource.example.codesnippet.generic.type.javamodel;
 
 import ch.actifsource.util.collection.IMultiMapOrdered;
 import ch.actifsource.core.dynamic.*;
@@ -61,4 +61,4 @@ public class Type extends DynamicResource implements IType {
   }
 
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,c6ced077-98e0-11ea-8ef1-cb1cd2be9da3,EdSL4+LpPGdybYXtrBqQRPLMN2s=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,c6ced077-98e0-11ea-8ef1-cb1cd2be9da3,hsjLqCwS07kTkOHVwXilqsQ9BVI=] */

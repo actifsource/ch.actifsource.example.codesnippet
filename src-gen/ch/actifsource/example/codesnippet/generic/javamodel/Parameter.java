@@ -42,11 +42,11 @@ public class Parameter extends DynamicResource implements IParameter {
   // relations
   
   @Override
-  public ch.actifsource.example.codesnippet.generic.javamodel.IType selectType() {
-    return _getSingle(ch.actifsource.example.codesnippet.generic.javamodel.IType.class, ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type);
+  public ch.actifsource.example.codesnippet.generic.type.javamodel.IType selectType() {
+    return _getSingle(ch.actifsource.example.codesnippet.generic.type.javamodel.IType.class, ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type);
   }
 
-  public Parameter setType(ch.actifsource.example.codesnippet.generic.javamodel.IType type) {
+  public Parameter setType(ch.actifsource.example.codesnippet.generic.type.javamodel.IType type) {
     _setSingle(ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type, type);
     return this;
   }
@@ -67,15 +67,15 @@ public class Parameter extends DynamicResource implements IParameter {
     // attributes
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.NamedResource_name, visitor);
     // relations
-    _acceptSingle(ch.actifsource.example.codesnippet.generic.javamodel.IType.class, ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type, visitor);
+    _acceptSingle(ch.actifsource.example.codesnippet.generic.type.javamodel.IType.class, ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type, visitor);
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
   }
 
   // toMeRelations
   
-  public static java.util.List<ch.actifsource.example.codesnippet.generic.javamodel.IParameter> selectToMeType(ch.actifsource.example.codesnippet.generic.javamodel.IType object) {
+  public static java.util.List<ch.actifsource.example.codesnippet.generic.javamodel.IParameter> selectToMeType(ch.actifsource.example.codesnippet.generic.type.javamodel.IType object) {
     return _getToMeList(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.IParameter.class, ch.actifsource.example.codesnippet.generic.GenericPackage.Parameter_type, object.getResource());
   }
   
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,bf119cdf-98e0-11ea-8ef1-cb1cd2be9da3,q0FPwzPqHsNl23CN1EEg0VRjs44=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,bf119cdf-98e0-11ea-8ef1-cb1cd2be9da3,1G2VrSSA8nP6QKOOs4BabP9vV+0=] */
