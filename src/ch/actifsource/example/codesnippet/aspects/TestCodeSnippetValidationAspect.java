@@ -35,7 +35,7 @@ public class TestCodeSnippetValidationAspect implements IResourceValidationAspec
   public void validate(ValidationContext context, List<IResourceInconsistency> inconsistencyList) {  
 	  IReadJobExecutor executor = context.getReadJobExecutor();
 	  
-	  for (Statement codesnippet :Select.statementsForRelation(executor, GenericPackage.System_codeSnippet, context.getResource())) {
+	  for (Statement codesnippet :Select.statementsForRelation(executor, GenericPackage.System_codeSnippet_aE_CMinus, context.getResource())) {
   	  for (INode invalidExpression :getInvalidExpressions(executor, codesnippet.object())) {
   		  INode backLink = Select.objectForRelationOrNull(executor, CminusPackage.BackLink_backLink, invalidExpression);
   		  if (backLink == null) continue;

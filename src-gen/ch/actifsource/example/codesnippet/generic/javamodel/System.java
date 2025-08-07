@@ -51,12 +51,22 @@ public class System extends DynamicResource implements ISystem {
   // relations
   
   @Override
-  public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet() {
-    return _getList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet);
+  public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_CMinus() {
+    return _getList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus);
   }
 
-  public System setCodeSnippet(java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> codeSnippet) {
-    _setList(ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet, codeSnippet);
+  public System setCodeSnippet_CMinus(java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> codeSnippet_CMinus) {
+    _setList(ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus, codeSnippet_CMinus);
+    return this;
+  }
+    
+  @Override
+  public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_STMinus() {
+    return _getList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus);
+  }
+
+  public System setCodeSnippet_STMinus(java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> codeSnippet_STMinus) {
+    _setList(ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus, codeSnippet_STMinus);
     return this;
   }
     
@@ -97,7 +107,8 @@ public class System extends DynamicResource implements ISystem {
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.Commentable_comment, visitor);
     _acceptSingleAttribute(java.lang.String.class, ch.actifsource.core.CorePackage.NamedResource_name, visitor);
     // relations
-    _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet, visitor);
+    _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus, visitor);
+    _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus, visitor);
     _acceptList(ch.actifsource.example.codesnippet.generic.javamodel.IFunction.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functions, visitor);
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
     _acceptList(ch.actifsource.example.codesnippet.generic.javamodel.IVariable.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_variable, visitor);
@@ -113,9 +124,13 @@ public class System extends DynamicResource implements ISystem {
     return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functions, object.getResource());
   }
   
-  public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeCodeSnippet(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet object) {
-    return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet, object.getResource());
+  public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeCodeSnippet_CMinus(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet object) {
+    return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus, object.getResource());
+  }
+  
+  public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeCodeSnippet_STMinus(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet object) {
+    return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus, object.getResource());
   }
   
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,Y8rdrWlaKnbXrPrQoZfMKt04gH4=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,0QTywDhuXs4kWFYN51R1//PskGQ=] */

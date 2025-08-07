@@ -8,7 +8,7 @@ public class GenericPackage {
   public static final Resource System_variable = new Resource("64f22b8b-98e0-11ea-8ef1-cb1cd2be9da3");
   public static final Resource System_functions = new Resource("64f22ba0-98e0-11ea-8ef1-cb1cd2be9da3");
   public static final Resource Variable = new Resource("7da5691e-98e0-11ea-8ef1-cb1cd2be9da3");
-  public static final Resource System_codeSnippet = new Resource("7da56927-98e0-11ea-8ef1-cb1cd2be9da3");
+  public static final Resource System_codeSnippet_aE_CMinus = new Resource("7da56927-98e0-11ea-8ef1-cb1cd2be9da3");
   public static final Resource Function = new Resource("93a101c7-98e0-11ea-8ef1-cb1cd2be9da3");
   public static final Resource Parameter = new Resource("bf119cdf-98e0-11ea-8ef1-cb1cd2be9da3");
   public static final Resource Parameter_type = new Resource("8a5999cc-98e2-11ea-8ef1-cb1cd2be9da3");
@@ -22,6 +22,7 @@ public class GenericPackage {
   public static final Resource TokenToNameExtension_FunctionCall = new Resource("f4fc213f-98e9-11ee-80d1-c70d4d250c6f");
   public static final Resource CodesnippetFunctions_System = new Resource("c918bf30-98ec-11ee-80d1-c70d4d250c6f");
   public static final Resource CodesnippetFunctions_NameProvider = new Resource("f48d6a7b-98f2-11ee-80d1-c70d4d250c6f");
+  public static final Resource System_codeSnippet_aE_STMinus = new Resource("6724231e-7398-11f0-a58a-9fab7db7db41");
   
   /* Begin Protected Region [[user]] */
   
@@ -42,4 +43,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,PrwUv+Yjk8piI39jQ9WUJOgwDeU=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,xxbc/yUpK00f3GPN3vjx5gwNKSA=] */
