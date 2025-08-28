@@ -23,6 +23,13 @@ public class GenericPackage {
   public static final Resource CodesnippetFunctions_System = new Resource("c918bf30-98ec-11ee-80d1-c70d4d250c6f");
   public static final Resource CodesnippetFunctions_NameProvider = new Resource("f48d6a7b-98f2-11ee-80d1-c70d4d250c6f");
   public static final Resource System_codeSnippet_aE_STMinus = new Resource("6724231e-7398-11f0-a58a-9fab7db7db41");
+  public static final Resource System_codeSnippet_aE_STMinus_aE_functionBlock = new Resource("973bf8f7-8408-11f0-94bf-45b00336fae7");
+  public static final Resource System_functionBlock = new Resource("c751b19f-8408-11f0-94bf-45b00336fae7");
+  public static final Resource FunctionBlock = new Resource("d38e538a-8408-11f0-94bf-45b00336fae7");
+  public static final Resource FunctionBlock_variable = new Resource("f86f64ac-8408-11f0-94bf-45b00336fae7");
+  public static final Resource FunctionBlock_call = new Resource("fc4106be-8408-11f0-94bf-45b00336fae7");
+  public static final Resource FunctionBlockCall = new Resource("0b561c45-8409-11f0-94bf-45b00336fae7");
+  public static final Resource varialb = new Resource("0f270834-840e-11f0-94bf-45b00336fae7");
   
   /* Begin Protected Region [[user]] */
   
@@ -43,4 +50,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,xxbc/yUpK00f3GPN3vjx5gwNKSA=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,w61v3JfPaNTuFFcfAnKDJatvNAc=] */

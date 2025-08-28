@@ -71,6 +71,26 @@ public class System extends DynamicResource implements ISystem {
   }
     
   @Override
+  public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_STMinus_functionBlock() {
+    return _getList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus_aE_functionBlock);
+  }
+
+  public System setCodeSnippet_STMinus_functionBlock(java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> codeSnippet_STMinus_functionBlock) {
+    _setList(ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus_aE_functionBlock, codeSnippet_STMinus_functionBlock);
+    return this;
+  }
+    
+  @Override
+  public java.util.List<? extends ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock> selectFunctionBlock() {
+    return _getList(ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functionBlock);
+  }
+
+  public System setFunctionBlock(java.util.List<? extends ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock> functionBlock) {
+    _setList(ch.actifsource.example.codesnippet.generic.GenericPackage.System_functionBlock, functionBlock);
+    return this;
+  }
+    
+  @Override
   public java.util.List<? extends ch.actifsource.example.codesnippet.generic.javamodel.IFunction> selectFunctions() {
     return _getList(ch.actifsource.example.codesnippet.generic.javamodel.IFunction.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functions);
   }
@@ -109,6 +129,8 @@ public class System extends DynamicResource implements ISystem {
     // relations
     _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus, visitor);
     _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus, visitor);
+    _acceptList(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus_aE_functionBlock, visitor);
+    _acceptList(ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functionBlock, visitor);
     _acceptList(ch.actifsource.example.codesnippet.generic.javamodel.IFunction.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functions, visitor);
     _acceptSingle(ch.actifsource.core.javamodel.IClass.class, ch.actifsource.core.CorePackage.Resource_typeOf, visitor);
     _acceptList(ch.actifsource.example.codesnippet.generic.javamodel.IVariable.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_variable, visitor);
@@ -124,6 +146,10 @@ public class System extends DynamicResource implements ISystem {
     return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functions, object.getResource());
   }
   
+  public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeFunctionBlock(ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock object) {
+    return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_functionBlock, object.getResource());
+  }
+  
   public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeCodeSnippet_CMinus(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet object) {
     return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_CMinus, object.getResource());
   }
@@ -132,5 +158,9 @@ public class System extends DynamicResource implements ISystem {
     return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus, object.getResource());
   }
   
+  public static ch.actifsource.example.codesnippet.generic.javamodel.ISystem selectToMeCodeSnippet_STMinus_functionBlock(ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet object) {
+    return _getToMeSingle(object.getRepository(), ch.actifsource.example.codesnippet.generic.javamodel.ISystem.class, ch.actifsource.example.codesnippet.generic.GenericPackage.System_codeSnippet_aE_STMinus_aE_functionBlock, object.getResource());
+  }
+  
 }
-/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,0QTywDhuXs4kWFYN51R1//PskGQ=] */
+/* Actifsource ID=[4d723cb5-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,F75/i5vNQEyunfi3G9oWJsv3p98=] */

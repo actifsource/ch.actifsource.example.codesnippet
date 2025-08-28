@@ -15,10 +15,14 @@ public interface ISystem extends ch.actifsource.core.javamodel.INamedResource, c
   
   public java.util.List<? extends ch.actifsource.example.codesnippet.generic.javamodel.IFunction> selectFunctions();
   
+  public java.util.List<? extends ch.actifsource.example.codesnippet.generic.javamodel.IFunctionBlock> selectFunctionBlock();
+  
   public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_CMinus();
   
   public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_STMinus();
   
+  public java.util.List<? extends ch.actifsource.codesnippet.metamodel.element.javamodel.ICodeSnippet> selectCodeSnippet_STMinus_functionBlock();
+  
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,k/+kfYvcW1rJ8d/PwU+QFQw2pPQ=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3,Om0Etngilwqts4quO0U4e52/s7Q=] */
