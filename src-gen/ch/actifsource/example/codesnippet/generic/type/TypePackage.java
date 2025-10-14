@@ -29,4 +29,4 @@ public class TypePackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic.type,pss8o+KqDiZAFVE3g9iHaarVxvI=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic.type,6J4pX0jcci+z1Ig+SeKmvunm/Yo=] */

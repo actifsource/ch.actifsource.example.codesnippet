@@ -20,7 +20,7 @@ Var_3_code.f1_default = 88;
  * ST Example
  */ 
 // Test codesnippet function variable
-IF (Function_1_code(Var_2_code,1)) THEN 
+IF Function_1_code(Var_2_code,1) THEN 
     Var_1_code := 77; 
 ELSE 
     Var_1_code := 66;
@@ -84,8 +84,8 @@ Var_3_code := "string";
 
 // Test for
 Var_1_code := 1;
-WHILE (Var_1_code <= 9) DO
-    IF (Var_1_code <> 0) THEN 
+WHILE Var_1_code <= 9 DO
+    IF Var_1_code <> 0 THEN 
         Var_2_code := Var_3_code; 
     ELSE 
         Var_3_code := "string";
@@ -114,4 +114,4 @@ for(TestSystem_Var_1_code = 1;TestSystem_Var_1_code <= 9;TestSystem_Var_1_code +
 }
 
 
-/* Actifsource ID=[a12233b6-98e4-11ea-8ef1-cb1cd2be9da3,49da7b0b-98e1-11ea-8ef1-cb1cd2be9da3,ObzPrAZKksElH0uwu/I2hIriYyY=] */
+/* Actifsource ID=[a12233b6-98e4-11ea-8ef1-cb1cd2be9da3,49da7b0b-98e1-11ea-8ef1-cb1cd2be9da3,p8ErWrvY+QQIkNaBEKb+GaB0uVc=] */
