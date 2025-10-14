@@ -61,6 +61,11 @@ Function_1_code(Var_1_code,1);
 // Test variable assignement
 Var_2_code = Var_3_code;
 Var_3_code = "string";
+Var_1_code = (1 - (8 / 3)) * 100;
+
+/*
+ * $4b0e401f-98e1-11ea-8ef1-cb1cd2be9da3$ comment
+ */
 
 // Test for
 for(Var_1_code = 1;Var_1_code <= 9;Var_1_code += 1){
@@ -81,6 +86,9 @@ Function_1_code(Var_1_code,1);
 // Test variable assignement
 Var_2_code := Var_3_code;
 Var_3_code := "string";
+Var_1_code := (1 - (8 / 3)) * 100;
+
+(* Var_1 comment*)
 
 // Test for
 Var_1_code := 1;
@@ -103,6 +111,11 @@ TestSystem_Function_1_code(TestSystem_Var_1_code,1);
 // Test variable assignement
 TestSystem_Var_2_code = TestSystem_Var_3_code;
 TestSystem_Var_3_code = "string";
+TestSystem_Var_1_code = (1 - (8 / 3)) * 100;
+
+/*
+ * $4b0e401f-98e1-11ea-8ef1-cb1cd2be9da3$ comment
+ */
 
 // Test for
 for(TestSystem_Var_1_code = 1;TestSystem_Var_1_code <= 9;TestSystem_Var_1_code += 1){
@@ -114,4 +127,4 @@ for(TestSystem_Var_1_code = 1;TestSystem_Var_1_code <= 9;TestSystem_Var_1_code +
 }
 
 
-/* Actifsource ID=[a12233b6-98e4-11ea-8ef1-cb1cd2be9da3,49da7b0b-98e1-11ea-8ef1-cb1cd2be9da3,p8ErWrvY+QQIkNaBEKb+GaB0uVc=] */
+/* Actifsource ID=[a12233b6-98e4-11ea-8ef1-cb1cd2be9da3,49da7b0b-98e1-11ea-8ef1-cb1cd2be9da3,eAwgoZEiHf7ctOMbT5tNUkDIzGA=] */
