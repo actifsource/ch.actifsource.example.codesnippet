@@ -15,4 +15,4 @@ public interface IVariable extends ch.actifsource.core.javamodel.ICommentable, c
   
 }
 
-/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,7da5691e-98e0-11ea-8ef1-cb1cd2be9da3,usuqPWxkz+cD5zMi4nJ/v8bomnA=] */
+/* Actifsource ID=[3ca9f967-db37-11de-82b8-17be2e034a3b,7da5691e-98e0-11ea-8ef1-cb1cd2be9da3,pGiWWX1TuafbkhXgy4xhROEZVXc=] */

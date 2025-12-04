@@ -50,4 +50,4 @@ public class GenericPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,J1y+AmZ+4RPyn6/ZQ3WwpOG0im4=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.codesnippet.generic,nIR25igh+RuMejNkGitPOmN9CAk=] */
