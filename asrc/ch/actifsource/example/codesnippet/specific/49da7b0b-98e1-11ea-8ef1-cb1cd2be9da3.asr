@@ -492,6 +492,9 @@
   <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="49da7b0d-98e1-11ea-8ef1-cb1cd2be9da3" type="resource" guid="64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3" />
   </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="49da7b0e-98e1-11ea-8ef1-cb1cd2be9da3" type="literal">TestSystemEE</object>
+  </predicate>
   <predicate guid="64f22b8b-98e0-11ea-8ef1-cb1cd2be9da3">
     <object statement-guid="4b0e4022-98e1-11ea-8ef1-cb1cd2be9da3">
       <resource guid="4b0e401f-98e1-11ea-8ef1-cb1cd2be9da3">
@@ -2270,9 +2273,6 @@
         </predicate>
       </resource>
     </object>
-  </predicate>
-  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
-    <object statement-guid="49da7b0e-98e1-11ea-8ef1-cb1cd2be9da3" type="literal">TestSystemBB</object>
   </predicate>
 </resource>
 
