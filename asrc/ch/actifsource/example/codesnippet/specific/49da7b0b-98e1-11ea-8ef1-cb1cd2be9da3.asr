@@ -492,9 +492,6 @@
   <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="49da7b0d-98e1-11ea-8ef1-cb1cd2be9da3" type="resource" guid="64f22b8a-98e0-11ea-8ef1-cb1cd2be9da3" />
   </predicate>
-  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
-    <object statement-guid="49da7b0e-98e1-11ea-8ef1-cb1cd2be9da3" type="literal">TestSystemCC</object>
-  </predicate>
   <predicate guid="64f22b8b-98e0-11ea-8ef1-cb1cd2be9da3">
     <object statement-guid="4b0e4022-98e1-11ea-8ef1-cb1cd2be9da3">
       <resource guid="4b0e401f-98e1-11ea-8ef1-cb1cd2be9da3">
@@ -548,6 +545,7 @@
   <predicate guid="64f22ba0-98e0-11ea-8ef1-cb1cd2be9da3">
     <object statement-guid="503c3d51-98e1-11ea-8ef1-cb1cd2be9da3" type="aggregate" guid="503c3d4e-98e1-11ea-8ef1-cb1cd2be9da3" />
     <object statement-guid="57c31eb4-98e1-11ea-8ef1-cb1cd2be9da3" type="aggregate" guid="57c31eb1-98e1-11ea-8ef1-cb1cd2be9da3" />
+    <object statement-guid="7e59ad5a-13e9-11f1-81c5-8776a1bf70ec" type="aggregate" guid="7e598647-13e9-11f1-81c5-8776a1bf70ec" />
   </predicate>
   <predicate guid="7da56927-98e0-11ea-8ef1-cb1cd2be9da3">
     <object statement-guid="d8cd1bc5-98e3-11ea-8ef1-cb1cd2be9da3">
@@ -2272,6 +2270,9 @@
         </predicate>
       </resource>
     </object>
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="49da7b0e-98e1-11ea-8ef1-cb1cd2be9da3" type="literal">TestSystemBB</object>
   </predicate>
 </resource>
 
